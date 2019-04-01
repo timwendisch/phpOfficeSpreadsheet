@@ -1,5 +1,5 @@
 {
-    "name": "wendisch/phpOfficeSpreadsheet",
+    "name": "wendisch/phpofficespreadsheet",
     "description": "A base library for extensions wich wants to use phpOffice, Structure build on rn_base",
     "type": "typo3-cms-extension",
     "keywords": ["PHP", "OpenXML", "Excel", "xlsx", "xls", "ods", "gnumeric", "spreadsheet"],
@@ -73,12 +73,12 @@
         }
     },
     "replace": {
-        "phpOfficeSpreadsheet": "self.version",
-        "typo3-ter/phpOfficeSpreadsheet": "self.version"
+        "phpofficespreadsheet": "self.version",
+        "typo3-ter/phpofficespreadsheet": "self.version"
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "phpOfficeSpreadsheet"
+            "extension-key": "phpofficespreadsheet"
         }
     }
 }
